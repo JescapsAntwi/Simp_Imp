@@ -17,10 +17,10 @@ public class bubble {
                     arrays[j] = arrays[j+1];
                     arrays[j + 1] = value;
                 }
-
             }
         }
         return arrays;
     }
 }
+
 
