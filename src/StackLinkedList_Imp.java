@@ -32,6 +32,9 @@ public class StackLinkedList_Imp {
             }
             return top.data;
         }
+        public boolean isEmpty(){
+            return top == null;
+        }
     }
 }
 
