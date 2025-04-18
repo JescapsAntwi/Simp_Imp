@@ -33,7 +33,18 @@ public class SinglyLinkedList_Imp {
             newNode.next = head;
             head = newNode;
         }
+        //DeleteWithValue
+        public void deleteWithValue(int data) {
+            if (head == null) {
+                return;
+            }
+            if(head.data == data){
+
+
+            }
+        }
     }
 }
+
 
 
