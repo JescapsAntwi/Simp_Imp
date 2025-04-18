@@ -38,6 +38,7 @@ public class StackLinkedList_Imp {
     }
 }
 
+//Everything happens at the top
 //Push: O(1)
 //Pop: O(1)
 //Peek: O(1)
