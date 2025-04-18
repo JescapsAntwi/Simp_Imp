@@ -16,6 +16,15 @@ public class SinglyLinkedList_Imp {
         //Adding at the end
         public void append(int data){
             Node newNode = new Node(data);
+            if (head == null) {
+                head = newNode;
+                return;
+            }
+            Node current = head;
+            while(current.next != null) {
+                current = current.next;
+            }
+
         }
     }
 }
