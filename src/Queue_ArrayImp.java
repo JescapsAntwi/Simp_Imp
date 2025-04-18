@@ -30,6 +30,19 @@ public class Queue_ArrayImp {
     public int dequeue(){
         if(isEmpty) {
             System.out.println("Queue is empty");
+            return -1;
+        }
+        int temp = arrayQueue[front++];
+        if (front == maxsize) {
+            front = 0; //wrap around
+        }
+        nItems--;
+        return temp;
+    }
+    //peek at the front element
+    public int peekFront(){
+        if(isEmpty()) {
+            System.out.println("Queue is empty");
         }
     }
 }
