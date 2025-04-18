@@ -39,12 +39,15 @@ public class SinglyLinkedList_Imp {
                 return;
             }
             if(head.data == data){
-
-
+                head = head.next;
+                return;
             }
         }
     }
 }
+
+
+
 
 
 
