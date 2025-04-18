@@ -57,11 +57,14 @@ public class DoublyLinkedList_Imp {
                 System.out.println(current.data + "<->");
                 current = current.prev;
             }
+            System.out.println("null");
         }
     }
 }
 
-
+//Access: O(n) -> Doesn't allow random acess
+//Search: O(n)
+//Insertion -> Deletion O(1) if position is known -> O(n) if position is not known
 
 
 
