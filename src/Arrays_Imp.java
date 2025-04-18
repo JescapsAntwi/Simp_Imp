@@ -1,3 +1,5 @@
+//Concept: Contiguous memory locations storing elements of the same type.
+
 import java.util.Arrays;
 public class Arrays_Imp {
     public static void main(String[] args) {
@@ -11,9 +13,9 @@ public class Arrays_Imp {
         System.out.println(second_array[1]);
 
         //Iterate through the array using a for loop by index
-//        for(int i=0; i< second_array.length; i++ ) {
-//            System.out.println(second_array[i]);
-//        }
+        for(int i=0; i< second_array.length; i++ ) {
+            System.out.println(second_array[i]);
+        }
         //Using an enhanced for loop
         for (int looped_array: second_array) {
             System.out.println(looped_array);
@@ -21,5 +23,8 @@ public class Arrays_Imp {
     }
 }
 
+//Access: O(n) time complexity
+//iterating/ searching: O(n)
+//Insertion - deletion  O(n) -> in the middle is O(n) requires shifting -> end is O(1) -> beginning is O(n) requires shifting
 
 
