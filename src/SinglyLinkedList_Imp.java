@@ -24,8 +24,9 @@ public class SinglyLinkedList_Imp {
             while(current.next != null) {
                 current = current.next;
             }
-
+            current.next = newNode;
         }
     }
 }
+
 
