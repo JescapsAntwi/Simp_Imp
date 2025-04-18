@@ -9,7 +9,7 @@ public class insertion {
 
     //insertion sort method
     public static int[] insertionSort(int[] arrays) {
-        //outer loop starts from 1
+        //outer loop starts from 1 to exclude the first value (sorted subarray from iteration)
         for (int i=1; i <arrays.length; i++){
             int insert_index = i;
             int current_value = arrays[i];
