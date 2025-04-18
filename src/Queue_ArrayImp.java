@@ -43,6 +43,17 @@ public class Queue_ArrayImp {
     public int peekFront(){
         if(isEmpty()) {
             System.out.println("Queue is empty");
+            return -1;
         }
+        return arrayQueue[front];
+    }
+    public boolean isEmpty(){
+        return nItems == 0;
+    }
+    public boolean isFull(){
+        return (nItems == maxsize);
+    }
+    public int size(){
+        return nItems;
     }
 }
