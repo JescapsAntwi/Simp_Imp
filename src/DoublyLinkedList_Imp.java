@@ -24,6 +24,12 @@ public class DoublyLinkedList_Imp {
                 return;
             }
             tail.next = newNode;
+            newNode.prev = tail;
+            tail = newNode;
+        }
+        //Add node at the beginning
+        public void prepend(int data){
+            DNode newNode = new DNode(data);
         }
 
     }
