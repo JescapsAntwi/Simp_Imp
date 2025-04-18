@@ -30,8 +30,39 @@ public class DoublyLinkedList_Imp {
         //Add node at the beginning
         public void prepend(int data){
             DNode newNode = new DNode(data);
+            if (head == null) {
+                head = newNode;
+                tail = newNode;
+                return;
+            }
+            newNode.next = head;
+            head.prev = newNode;
+            head = newNode;
         }
 
+        //Print the double linkedlist forward
+        public void printForward() {
+            DNode current = head;
+            while(current != null) {
+                System.out.println(current.data + "<->");
+                current = current.next.next;
+
+            }
+            System.out.println("null");
+        }
+        //Print the double linkedlist backward
+        public void printBackward(){
+            DNode current = tail;
+            while(current != null){
+                System.out.println(current.data + "<->");
+                current = current.prev;
+            }
+        }
     }
 }
+
+
+
+
+
 
