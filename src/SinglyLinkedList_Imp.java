@@ -11,6 +11,12 @@ public class SinglyLinkedList_Imp {
     }
 
     class SinglyLinkedList {
+        Node head;
 
+        //Adding at the end
+        public void append(int data){
+            Node newNode = new Node(data);
+        }
     }
 }
+
