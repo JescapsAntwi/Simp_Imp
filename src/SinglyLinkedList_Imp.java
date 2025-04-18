@@ -52,6 +52,14 @@ public class SinglyLinkedList_Imp {
             }
         }
     }
+    //Print the linkedlist
+    public void printList() {
+        Node current = head;
+        while(current != null) {
+
+        }
+
+    }
 }
 
 
