@@ -22,9 +22,18 @@ public class StackLinkedList_Imp {
                 return -1;
             }
             int data = top.data;
-
-
+            top = top.next;
+            return data;
         }
-
+        public int peek(){
+            if(isEmpty()){
+                System.out.println("Stack is empty");
+                return -1;
+            }
+            return top.data;
+        }
     }
 }
+
+
+
