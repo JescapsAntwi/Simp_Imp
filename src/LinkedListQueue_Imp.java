@@ -13,7 +13,13 @@ public class LinkedListQueue_Imp {
     //add at the end
     public void enqueue(int data){
         Node newNode = new Node(data);
-
+        if(isEmpty()){
+            first = newNode;
+        }
+        else {
+            last.next = newNode;
+        }
+        last = newNode;
     }
 }
 
