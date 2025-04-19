@@ -34,5 +34,13 @@ public class LinkedListQueue_Imp {
         }
         return data;
     }
+    //take a peek at the first element
+    public int peek() {
+        if(isEmpty()){
+            System.out.println("Queue is empty!");
+            return -1;
+        }
+        return first.data;
+    }
 }
 
