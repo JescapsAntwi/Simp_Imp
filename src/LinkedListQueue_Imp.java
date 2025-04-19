@@ -21,5 +21,12 @@ public class LinkedListQueue_Imp {
         }
         last = newNode;
     }
+    //remove from beginning
+    public int dequeue() {
+        if(isEmpty()){
+            System.out.println("Queue is empty");
+            return -1;
+        }
+    }
 }
 
