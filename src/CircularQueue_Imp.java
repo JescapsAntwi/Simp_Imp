@@ -18,6 +18,11 @@ public class CircularQueue_Imp {
         }
         queueArray[rear] = value;
         rear = (rear + 1) % maxSize;
-
+    }
+    public int dequeue(){
+        if(isEmpty()){
+            System.out.println("Queue is empty!");
+        }
     }
 }
+
