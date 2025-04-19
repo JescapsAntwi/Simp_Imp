@@ -10,4 +10,8 @@ public class CircularQueue_Imp {
         front = 0;
         rear = 0;
     }
+    //add at the end
+    public void enqueue(int value){
+
+    }
 }
