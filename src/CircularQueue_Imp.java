@@ -28,5 +28,12 @@ public class CircularQueue_Imp {
         front = (front + 1) % maxSize;
         return value;
     }
+    public int peek(){
+        if(isEmpty()){
+            System.out.println("Queue is empty");
+            return -1;
+        }
+        return queueArray[front];
+    }
 }
 
