@@ -12,6 +12,10 @@ public class CircularQueue_Imp {
     }
     //add at the end
     public void enqueue(int value){
+        if(isFull()){
+            System.out.println("Queue is full");
+            return;
+        }
 
     }
 }
