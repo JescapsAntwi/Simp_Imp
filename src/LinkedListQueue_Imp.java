@@ -28,6 +28,7 @@ public class LinkedListQueue_Imp {
             return -1;
         }
         int data = first.data;
+        first = first.next;
 
     }
 }
