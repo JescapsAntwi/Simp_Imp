@@ -4,6 +4,11 @@ public class LinkedListQueue_Imp {
 
     private class Node {
         int data;
+        Node next;
 
+        Node(int data) {
+            this.data = data;
+        }
     }
 }
+
