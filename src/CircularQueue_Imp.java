@@ -16,6 +16,8 @@ public class CircularQueue_Imp {
             System.out.println("Queue is full");
             return;
         }
+        queueArray[rear] = value;
+        rear = (rear + 1) % maxSize;
 
     }
 }
