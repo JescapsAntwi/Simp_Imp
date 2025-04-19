@@ -22,7 +22,9 @@ public class CircularQueue_Imp {
     public int dequeue(){
         if(isEmpty()){
             System.out.println("Queue is empty!");
+            return -1;
         }
+        int value = queueArray[front];
     }
 }
 
