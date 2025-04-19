@@ -27,6 +27,8 @@ public class LinkedListQueue_Imp {
             System.out.println("Queue is empty");
             return -1;
         }
+        int data = first.data;
+
     }
 }
 
