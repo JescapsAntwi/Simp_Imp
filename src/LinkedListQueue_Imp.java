@@ -12,6 +12,7 @@ public class LinkedListQueue_Imp {
     }
     //add at the end
     public void enqueue(int data){
+        Node newNode = new Node(data);
 
     }
 }
