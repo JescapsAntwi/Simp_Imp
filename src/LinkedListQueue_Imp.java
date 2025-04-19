@@ -42,5 +42,9 @@ public class LinkedListQueue_Imp {
         }
         return first.data;
     }
+
+    public boolean isEmpty(){
+        return first == null;
+    }
 }
 
