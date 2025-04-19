@@ -10,5 +10,9 @@ public class LinkedListQueue_Imp {
             this.data = data;
         }
     }
+    //add at the end
+    public void enqueue(int data){
+
+    }
 }
 
