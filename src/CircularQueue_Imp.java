@@ -25,6 +25,8 @@ public class CircularQueue_Imp {
             return -1;
         }
         int value = queueArray[front];
+        front = (front + 1) % maxSize;
+        return value;
     }
 }
 
