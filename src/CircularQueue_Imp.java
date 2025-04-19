@@ -35,5 +35,12 @@ public class CircularQueue_Imp {
         }
         return queueArray[front];
     }
+
+    public boolean isEmpty(){
+        return front == rear;
+    }
+    public boolean isFull(){
+        return (rear + 1) % maxSize == front;
+    }
 }
 
