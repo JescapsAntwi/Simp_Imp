@@ -29,7 +29,10 @@ public class LinkedListQueue_Imp {
         }
         int data = first.data;
         first = first.next;
-
+        if(isEmpty()){
+            last = null;
+        }
+        return data;
     }
 }
 
