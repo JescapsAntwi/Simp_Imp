@@ -60,12 +60,12 @@ public class SinglyLinkedList_Imp {
         while(current != null) {
             System.out.println(current.data + " -> ");
             current = current.next;
-
         }
         System.out.println("null");
-
     }
 }
+
+
 
 
 
