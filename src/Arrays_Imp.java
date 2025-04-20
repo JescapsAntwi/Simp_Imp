@@ -23,7 +23,7 @@ public class Arrays_Imp {
     }
 }
 
-//Access: O(n) time complexity
+//Access: O(n) time complexity -> worst case
 //iterating/ searching: O(n)
 //Insertion - deletion  O(n) -> in the middle is O(n) requires shifting -> end is O(1) -> beginning is O(n) requires shifting
 
