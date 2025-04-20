@@ -21,6 +21,8 @@ public class SinglyLinkedList_Imp {
                 return;
             }
             Node current = head; //initialize and start at the head node
+
+            //loop stops when we reach tail node
             while(current.next != null) {
                 current = current.next;
             }
