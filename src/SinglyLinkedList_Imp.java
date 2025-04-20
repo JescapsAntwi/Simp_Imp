@@ -20,7 +20,7 @@ public class SinglyLinkedList_Imp {
                 head = newNode;
                 return;
             }
-            Node current = head;
+            Node current = head; //initialize and start at the head node
             while(current.next != null) {
                 current = current.next;
             }
