@@ -61,6 +61,7 @@ public class SinglyLinkedList_Imp {
             System.out.println(current.data + " -> ");
             current = current.next;
         }
+        //null prints when we reach the end/ tail of the linkedlist
         System.out.println("null");
     }
 }
