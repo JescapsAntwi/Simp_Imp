@@ -62,7 +62,7 @@ public class DoublyLinkedList_Imp {
     }
 }
 
-//Access: O(n) -> Doesn't allow random acess
+//Access: O(n) -> Doesn't allow random accesss
 //Search: O(n)
 //Insertion -> Deletion O(1) if position is known -> O(n) if position is not known
 
