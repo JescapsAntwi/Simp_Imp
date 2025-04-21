@@ -1,6 +1,6 @@
 public class DoublyLinkedList_Imp {
 
-    //class
+    //class to represent a node
     class DNode {
         int data;
         DNode next;
