@@ -6,6 +6,7 @@ public class DoublyLinkedList_Imp {
         DNode next;
         DNode prev;
 
+        //constructor
         public DNode(int data){
             this.data = data;
             this.next = null;
