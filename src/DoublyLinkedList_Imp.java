@@ -63,7 +63,7 @@ public class DoublyLinkedList_Imp {
 }
 
 //Access: O(n) -> Doesn't allow random access
-//Search: O(n) ->You have to grow through the entire list
+//Search: O(n) ->You have to grow through the entire list to search for an element
 //Insertion -> Deletion O(1) if position is known -> O(n) if position is not known
 
 
