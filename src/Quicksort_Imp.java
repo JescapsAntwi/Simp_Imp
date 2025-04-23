@@ -12,7 +12,9 @@
 
 
 //pivot = {6}
-//left_aray = {4, 5}
+//left_array = {4, 5}
 //right_array = {9, 8}
+
+//pivot = {6}
 public class Quicksort_Imp {
 }
