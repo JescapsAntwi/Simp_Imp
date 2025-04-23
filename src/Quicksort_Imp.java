@@ -4,8 +4,13 @@
 // pivot = 3
 // left_array = {1, -1}
 //right_array = {6, 9,8,4,5}
+
+
 //pivot = 1
 //left_array = {-1}
 //right_array = {}
+
+
+//pivot = {6}
 public class Quicksort_Imp {
 }
