@@ -2,7 +2,8 @@
 //test of how the algorithm works
 // int[] sample_array = {3, 1, 6, 9, 8, 4, 5, -1};
 // pivot = 3
-// left_array = {}
-//right_array = {}
+// left_array = {1, -1}
+//right_array = {6, 9,8,4,5}
+
 public class Quicksort_Imp {
 }
