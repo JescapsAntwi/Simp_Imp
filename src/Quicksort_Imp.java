@@ -20,5 +20,6 @@
 //right_array = {5}
 
 //pivot = {9}
+//left_array = {}
 public class Quicksort_Imp {
 }
