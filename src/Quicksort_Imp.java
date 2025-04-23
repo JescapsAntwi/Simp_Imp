@@ -1,4 +1,4 @@
 //this is an implementation of the quicksort algorithm
-//test of
+//test of how
 public class Quicksort_Imp {
 }
