@@ -46,9 +46,30 @@ public class Quicksort_Imp {
         int i = low - 1;
 
         //traverse through all elements in subarray
+        for (int j=low; j <high; j++){
+            if(arr[j] < pivot){
+                i++;
 
+                swap(arr, i, j);
+            }
+        }
+        swap(arr, i+1, high);
+
+        return i+1;
     }
 
+    private static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    private static void printArray(int[] arr) {
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+    }
 }
 
 
