@@ -1,6 +1,9 @@
 //this is an implementation of the quicksort algorithm
 //test of how the algorithm works
 // int[] sample_array = {3, 1, 6, 9, 8, 4, 5, -1};
+
+//sorted_array = {-1, 1, 3, 4, 5, 6, 8, 9}
+
 // pivot = 3
 // left_array = {1, -1}
 //right_array = {6, 9,8,4,5}
