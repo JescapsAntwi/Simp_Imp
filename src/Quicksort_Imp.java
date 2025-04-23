@@ -28,6 +28,15 @@
 
 public class Quicksort_Imp {
     public static void main(String[] args) {
+        int[] numbers = {9, 3, 7, 1, 5, 8, 2, 6, 4};
+
+        System.out.println("Original array:");
+        printArray(numbers);
+
+        quicksort(numbers, 0, numbers.length - 1);
+
+        System.out.println("\nSorted array:");
+        printArray(numbers);
 
     }
     //create function to handle quicksort implementation
