@@ -27,6 +27,23 @@
 //right_array = {}
 
 public class Quicksort_Imp {
+    public static void main(String[] args) {
+
+    }
+    //create function to handle quicksort implementation
+    public static void quicksort(int[] arr, int low, int high) {
+        if (low < high) {
+            int pivotIndex = partition(arr, low, high);
+
+            quicksort(arr, low, pivotIndex - 1);
+            quicksort(arr, pivotIndex + 1, high);
+        }
+    }
+
+    public static int partition(int[], int low, int high) {
+
+    }
+
 }
 
 
