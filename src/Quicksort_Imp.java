@@ -28,7 +28,7 @@
 
 public class Quicksort_Imp {
     public static void main(String[] args) {
-        //array to be sorted in ascend
+        //array to be sorted in ascendi
         int[] numbers = {9, 3, 7, 1, 5, 8, 2, 6, 4};
 
 
