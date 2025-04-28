@@ -4,6 +4,11 @@ public class LinearSearch_Imp {
     }
     //Linear Search Implementation
     public static int LinearSearch(int[] array, int targetValue){
+        for(int i=0; i<array.length; i++){
+            if (array[i] == targetValue){
+
+            }
+        }
 
     }
 }
