@@ -3,7 +3,7 @@ public class LinearSearch_Imp {
 
         int[] test_array = {9, 6, -1, 67, 89, 900, 21, 6};
         //call LinearSearch function
-        System.out.println("The value was found at " + LinearSearch(test_array, 6));
+        System.out.println("The value was found at " + LinearSearch(test_array, 800));
     }
     //Linear Search Implementation
     public static int LinearSearch(int[] array, int targetValue){
@@ -12,6 +12,7 @@ public class LinearSearch_Imp {
                 return i;
             }
         }
+        //value is not in array
         return -1;
     }
 }
