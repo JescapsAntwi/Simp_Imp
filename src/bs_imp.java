@@ -11,10 +11,10 @@ public class bs_imp {
     //binary search
     public static int binarySearch(int[] arrays, int targetValue) {
 
-        //first value in the array
+        //index of first value in the array
         int left = 0;
 
-        //last value in the array
+        //index of last value in the array
         int right = arrays.length - 1;
 
         while (left <= right) {
