@@ -3,7 +3,9 @@ public class LinearSearch_Imp {
 
         int[] test_array = {9, 6, -1, 67, 89, 900, 21, 6};
         int result = LinearSearch(test_array, 800);
+        if(result != -1){
 
+        }
         //call LinearSearch function
         System.out.println("The value was found at " + LinearSearch(test_array, 800));
     }
