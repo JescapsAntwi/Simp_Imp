@@ -2,6 +2,8 @@ public class LinearSearch_Imp {
     public static void main(String[] args) {
 
         int[] test_array = {9, 6, -1, 67, 89, 900, 21, 6};
+        int result = LinearSearch(test_array, 800);
+
         //call LinearSearch function
         System.out.println("The value was found at " + LinearSearch(test_array, 800));
     }
