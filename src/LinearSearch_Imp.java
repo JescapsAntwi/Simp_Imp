@@ -20,6 +20,6 @@ public class LinearSearch_Imp {
         return -1;
     }
 }
-//Implement bubble sort on the array and
+//Implement bubble sort on the array and then
 //Next up; sort using bubble sort and search for a value in the array using linear search
 
