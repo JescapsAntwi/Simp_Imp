@@ -9,7 +9,7 @@ public class LinearSearch_Imp {
         //call LinearSearch function
         System.out.println("The value was found " + target + " was found at index " + result);
     }
-    //Linear Search Implementation
+    //Linear Search Implementatio
     public static int LinearSearch(int[] array, int targetValue){
         for(int i=0; i<array.length; i++){
             if (array[i] == targetValue){
@@ -21,7 +21,5 @@ public class LinearSearch_Imp {
     }
 }
 
-
-
-
+//Next up; sort using bubble sort and search for a value in the array using linear search
 
