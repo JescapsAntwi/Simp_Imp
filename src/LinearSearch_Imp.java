@@ -9,7 +9,7 @@ public class LinearSearch_Imp {
         //call LinearSearch function
         System.out.println("The value was found " + target + " was found at index " + result);
     }
-    //Linear Search Implementatio
+    //Linear Search Implementatiom
     public static int LinearSearch(int[] array, int targetValue){
         for(int i=0; i<array.length; i++){
             if (array[i] == targetValue){
