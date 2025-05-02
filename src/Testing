@@ -1,0 +1,23 @@
+//Implement an array based list
+//Doubling capacity
+//keep track of how many times the array resizes
+
+//three classes
+-> A skeletal book class
+-> BookListSystem class (resizing will be defined in here) -> Logic of the program will be implemented here
+-> Main program to demo how program runs -> Will also contain test cases of program
+
+
+Skeleton of Program Implementation
+Book Class
+-> Attributes
+- ID of Book
+- Author
+- Availability
+- title of book
+
+-> Constructor
+
+-> Getters
+
+-> To String method for nice output of program
