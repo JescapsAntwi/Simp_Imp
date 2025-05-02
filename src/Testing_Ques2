@@ -28,3 +28,6 @@ LinkedList Class
 constructor
 
 HashMap for easy access
+
+Methods
+->addFront
