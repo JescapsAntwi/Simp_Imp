@@ -31,3 +31,5 @@ HashMap for easy access
 
 Methods
 ->addFront
+->addEnd
+->
