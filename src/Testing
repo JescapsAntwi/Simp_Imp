@@ -25,5 +25,5 @@ Book Class
 BookListSystem Class
 -> Attributes
 -Fixed size array chunk
--> chunk:
+-> chunk: we are dividing
 - One array chunk of array chunks
