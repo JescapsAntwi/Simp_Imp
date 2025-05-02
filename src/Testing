@@ -21,3 +21,9 @@ Book Class
 -> Getters
 
 -> To String method for nice output of program
+
+BookListSystem Class
+-> Attributes
+-Fixed size array chunk
+-> chunk:
+- One array chunk of array chunks
