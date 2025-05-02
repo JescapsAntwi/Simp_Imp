@@ -29,3 +29,5 @@ BookListSystem Class
 - One array chunk of array chunks
 - number of books in system
 - count of times we've added a new chunk (resizes)
+-
+-> Constructor
