@@ -27,3 +27,5 @@ BookListSystem Class
 -Fixed size array chunk
 -> chunk: we are dividing one large size array into smaller pieces for efficient management of book objects
 - One array chunk of array chunks
+- number of books in system
+-
