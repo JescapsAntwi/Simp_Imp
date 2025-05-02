@@ -28,4 +28,4 @@ BookListSystem Class
 -> chunk: we are dividing one large size array into smaller pieces for efficient management of book objects
 - One array chunk of array chunks
 - number of books in system
--
+- count of times we've added a new chunk (resizes)
