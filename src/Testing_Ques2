@@ -37,3 +37,6 @@ Methods
 -> rebuild Index Map
 -> size
 -> getTraversalCount
+
+WaitList App
+switch case statements to handle user inputs
