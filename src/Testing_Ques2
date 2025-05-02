@@ -32,4 +32,5 @@ HashMap for easy access
 Methods
 ->addFront
 ->addEnd
-->
+-> addAt
+-> remove
