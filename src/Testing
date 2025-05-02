@@ -31,3 +31,6 @@ BookListSystem Class
 - count of times we've added a new chunk (resizes)
 -
 -> Constructor
+
+-> Methods
+- add (to the end of the list)
