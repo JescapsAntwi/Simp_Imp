@@ -34,3 +34,6 @@ Methods
 ->addEnd
 -> addAt
 -> remove
+-> rebuild Index Map
+-> size
+->
