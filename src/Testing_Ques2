@@ -14,3 +14,7 @@ Student Class
 -> timeStamp
 
 Constructor
+
+->ToString for clean output
+
+Node Class
