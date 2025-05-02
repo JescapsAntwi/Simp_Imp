@@ -36,4 +36,4 @@ Methods
 -> remove
 -> rebuild Index Map
 -> size
-->
+-> getTraversalCount
