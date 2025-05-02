@@ -25,5 +25,5 @@ Book Class
 BookListSystem Class
 -> Attributes
 -Fixed size array chunk
--> chunk: we are dividing one large size array into smaller pieces for efficient
+-> chunk: we are dividing one large size array into smaller pieces for efficient management of
 - One array chunk of array chunks
