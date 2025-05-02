@@ -22,3 +22,9 @@ Node Class
 - next pointer
 
 LinkedList Class
+- head
+- size
+
+constructor
+
+HashMap for easy access
