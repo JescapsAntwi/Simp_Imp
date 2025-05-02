@@ -22,7 +22,7 @@ Book Class
 
 -> To String method for nice output of program
 
-BookListSystem Class
+BookList Class
 -> Attributes
 -Fixed size array chunk
 -> chunk: we are dividing one large size array into smaller pieces for efficient management of book objects
@@ -39,4 +39,6 @@ BookListSystem Class
 - size (returns an integer representing size of book list)
 - print (prints/ displays all books in the system)
 
-->
+
+B
+-
