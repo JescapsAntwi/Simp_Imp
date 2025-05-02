@@ -34,3 +34,4 @@ BookListSystem Class
 
 -> Methods
 - add (to the end of the list)
+- insert (to any position in the list)
