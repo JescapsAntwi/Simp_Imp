@@ -20,4 +20,13 @@ public class Book {
     private String getAuthor(){
         return this.author;
     }
+
+    private boolean getAvailability() {
+        return this.availability;
+    }
+
+    @Override
+    public String toString(){
+        return ("BookID: " + this.BookID + " Author:" + this.author + " Title:" + this.title + " Availability" + this.availability);
+    }
 }
