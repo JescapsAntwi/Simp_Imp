@@ -8,6 +8,7 @@ public class Book {
     public Book(String BookID, String author, boolean availability, String title) {
         this.author = author;
         this.BookID = BookID;
+        this.availability = availability;
 
     }
 }
