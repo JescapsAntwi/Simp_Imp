@@ -9,6 +9,6 @@ public class Book {
         this.author = author;
         this.BookID = BookID;
         this.availability = availability;
-
+        this.title = title;
     }
 }
