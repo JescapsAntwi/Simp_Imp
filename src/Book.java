@@ -11,4 +11,9 @@ public class Book {
         this.availability = availability;
         this.title = title;
     }
+
+    //getters
+    private String getBookID(){
+        return this.BookID;
+    }
 }
