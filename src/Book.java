@@ -5,4 +5,7 @@ public class Book {
     private String title;
 
     //constructor
+    public Book(String BookID, String author, boolean availability, String title) {
+
+    }
 }
