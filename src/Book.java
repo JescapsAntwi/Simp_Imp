@@ -16,4 +16,8 @@ public class Book {
     private String getBookID(){
         return this.BookID;
     }
+
+    private String getAuthor(){
+        return this.author;
+    }
 }
