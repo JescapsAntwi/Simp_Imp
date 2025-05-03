@@ -3,4 +3,6 @@ public class Book {
     private String author;
     private boolean availability;
     private String title;
+
+    //constructor
 }
