@@ -1,11 +1,11 @@
 public class Book {
     private String BookID;
     private String author;
-    private boolean availability;
+    private String availability;
     private String title;
 
     //constructor
-    public Book(String BookID, String author, boolean availability, String title) {
+    public Book(String BookID, String author, String availability, String title) {
         this.author = author;
         this.BookID = BookID;
         this.availability = availability;
@@ -21,7 +21,7 @@ public class Book {
         return this.author;
     }
 
-    private boolean getAvailability() {
+    private String getAvailability() {
         return this.availability;
     }
 
