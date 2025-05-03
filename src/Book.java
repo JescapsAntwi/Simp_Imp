@@ -15,5 +15,6 @@ public class Book {
     //getters
     private String getBookID(){
         return this.BookID;
+        return this.author;
     }
 }
