@@ -12,7 +12,7 @@ public class Book {
         this.title = title;
     }
 
-    //getters
+    //getter methods
     private String getBookID(){
         return this.BookID;
     }
