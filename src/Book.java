@@ -4,7 +4,7 @@ public class Book {
     private String availability;
     private String title;
 
-    //constructor
+    //constructor for the book class
     public Book(String BookID, String author, String availability, String title) {
         this.author = author;
         this.BookID = BookID;
