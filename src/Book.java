@@ -1,4 +1,4 @@
-//defining the book clas
+//defining the book cla
 public class Book {
     private String BookID;
     private String author;
