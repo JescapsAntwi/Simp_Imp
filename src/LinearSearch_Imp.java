@@ -6,7 +6,7 @@ public class LinearSearch_Imp {
         int result = LinearSearch(test_array, target);
         if(result != -1){
         }
-        //call LinearSearch function
+        //call linearSearch function
         System.out.println("The value was found " + target + " was found at index " + result);
     }
     //Linear Search Implementation
