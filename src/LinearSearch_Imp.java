@@ -20,7 +20,7 @@ public class LinearSearch_Imp {
         return -1;
     }
 }
-//Imple bubble sort on the array and then find the index of any value in the array
+//Impl bubble sort on the array and then find the index of any value in the array
 //Next up; sort using bubble sort and search for a value in the array using linear search
 //Next implementation
 
