@@ -16,7 +16,7 @@ public class LinearSearch_Imp {
                 return i;
             }
         }
-        //value is not in array so r
+        //value is not in array so re
         return -1;
     }
 }
