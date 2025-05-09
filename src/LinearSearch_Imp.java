@@ -21,7 +21,7 @@ public class LinearSearch_Imp {
     }
 }
 //Implement bubble sort on the array and then find the index of any value in the array
-//Next up; sort using bubble sort and search for a value in the array using linear sear
+//Next up; sort using bubble sort and search for a value in the array using linear sea
 //Next implementation
 
 
