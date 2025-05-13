@@ -16,7 +16,7 @@ public class LinearSearch_Imp {
                 return i;
             }
         }
-        //value is not i
+        //value is not
         return -1;
     }
 }
